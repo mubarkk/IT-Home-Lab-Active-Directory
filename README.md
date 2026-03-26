@@ -1,15 +1,15 @@
 # Enterprise IT Home Lab: Active Directory & Windows Server 2022
 
-## 🎯 Project Overview
-This project involved architecting a virtualized enterprise network to simulate a real-world corporate environment. The goal was to practice core System Administration and Service Desk tasks, specifically focusing on user identity management, network services, and security permissions.
+## Project Overview
+This project involved architecting a virtualized enterprise network to simulate a real-world corporate environment. The goal was to practice core System Administration and Service Desk tasks, with a focus on user identity management, network services, and security permissions.
 
-## 🛠️ Technical Stack
+## Technical Stack
 * **Hypervisor:** Oracle VirtualBox
 * **Server OS:** Windows Server 2022 (Domain Controller)
 * **Client OS:** Windows 11 Enterprise
 * **Services:** Active Directory Domain Services (AD DS), DNS, DHCP
 
-## 🚀 Key Implementation Steps
+## Key Implementation Steps
 
 ### 1. Domain Controller Setup
 - Installed and configured Windows Server 2022.
@@ -25,7 +25,7 @@ This project involved architecting a virtualized enterprise network to simulate 
 - Provisioned a Windows 11 VM and successfully joined it to the `LAB.LOCAL` domain.
 - Verified roaming profile functionality and mapped network drives via Login Scripts.
 
-## 🛠️ Service Desk Scenarios Simulated
+## Service Desk Scenarios Simulated
 To prepare for high-volume support roles, I performed the following "Tickets":
 * **Account Lockouts:** Diagnosed and resolved user login failures using AD Administrative Center.
 * **Password Resets:** Managed secure password resets and forced "change at next logon" requirements.
